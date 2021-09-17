@@ -5,7 +5,7 @@ body{
 
 section {
     
-   
+    
     background-color: white;
     
 }
@@ -32,7 +32,7 @@ nav {
 ul {
     display: flex;   
     list-style-type: none;
-    width: 250px;
+    width: 400px;
     justify-content: space-around;
     font-size: 20px;
 }
@@ -61,7 +61,7 @@ h1{
 }
 
 p{
-   font-weight: 300;
+   font-weight: 500;
 }
 
 .button {
@@ -77,6 +77,9 @@ p{
 }
 .button:hover {
     background-color: #5390d9;
+}
+.project-link:hover{
+    color:#5390d9;
 }
 .button:active{
     background-color: #a9a9a9;
@@ -95,7 +98,7 @@ p{
 
 .sub-section{
     display: flex;
-    justify-content: space-around;
+    
     padding: 30px;
     
     
@@ -104,7 +107,7 @@ p{
 
 .project-card{
     width: 250px;
-    height: 350px;
+    height: 450px;
     border: 1px solid black;
     border-radius: 20px;
     box-shadow: 15px  10px 5px rgb(214, 203, 203);;
@@ -126,6 +129,7 @@ p{
 .project-image{
     width: 250px;
     margin-top: 20px;
+    height: 200px;
     
 }
 hr {
@@ -164,6 +168,9 @@ a {
         background-color: #2b2c38;
         margin: 0%;
     }
+     li{
+         margin: 5px;
+     }
 
     nav {
         display: flex;
@@ -171,9 +178,7 @@ a {
         
         background-color: #2b2c38;
     }
-    .portfolio-text {
-        display: none;
-    }
+
     ul.show {
         display: block;
     }
@@ -181,14 +186,22 @@ a {
 input[type=text], input[type=email] {
     width: 90%;
     padding: 15px;
-    margin: 5px 10px 22px 15px;
+    margin: 5px 10px 22px 30px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  textarea{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 10px 22px 30px;
     display: inline-block;
     border: none;
     background: #f1f1f1;
   }
 
   .form-label{
-      margin-left: 15px;
+      margin-left: 30px;
       font-size: 20px;
   }
 
@@ -201,10 +214,31 @@ input[type=text], input[type=email] {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-bottom: 30px;
     cursor: pointer;
   }
   button:hover {
       background-color: #5390d9;
+  }
+
+  .contact-title {
+      margin-left: 30px;
+  }
+
+  footer{
+      
+      height: 700px;
+  }
+
+  .section-divider{
+      margin-left: 2%;
+      margin-right: 6%;
+      margin-top: 30px;
+
+  }
+  .up-icon{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 6%;
   }
