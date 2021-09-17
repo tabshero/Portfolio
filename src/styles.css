@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0%;
     font-family: 'Ubuntu', sans-serif;
@@ -165,6 +169,7 @@ a {
     }
     ul{
         display: none;
+        width: fit-content;
         background-color: #2b2c38;
         margin: 0%;
     }
@@ -184,7 +189,7 @@ a {
     }
 }
 input[type=text], input[type=email] {
-    width: 90%;
+    width: 70%;
     padding: 15px;
     margin: 5px 10px 22px 30px;
     display: inline-block;
@@ -192,7 +197,7 @@ input[type=text], input[type=email] {
     background: #f1f1f1;
   }
   textarea{
-    width: 90%;
+    width: 70%;
     padding: 15px;
     margin: 5px 10px 22px 30px;
     display: inline-block;
